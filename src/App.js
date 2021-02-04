@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Movies from "./pages/Movies/Movies";
+import Home from "./pages/home/Home";
+import Movies from "./pages/movies/Movies";
 import NavBar from "./components/NavBar";
-import Movie from "./pages/Movie/Movie";
+import Movie from "./pages/movie/Movie";
 
 function App() {
   return (
