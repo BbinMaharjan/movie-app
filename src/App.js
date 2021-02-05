@@ -4,6 +4,7 @@ import Home from "./pages/home/Home";
 import Movies from "./pages/movies/Movies";
 import NavBar from "./components/NavBar";
 import Movie from "./pages/movie/Movie";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               return <Movie data={data} />;
             }}
           />
+          <Footer />
         </Switch>
       </div>
     </BrowserRouter>

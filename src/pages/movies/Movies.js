@@ -18,14 +18,18 @@ const Movies = ({ data }) => {
       const res = await axios.get(`${BASE_URL}/movie/now_playing`, {
         params: { api_key: API_KEY, page: cp },
       });
-      setPlayingNow(res.data.results);
+      setPlayingNow(res.data.results.splice(0, 18));
     };
     match.params.id && getPlayingNowMovies(currentPage);
   }, [currentPage, match.params.id]);
 
   return (
     <div>
-      <div>List of all movies</div>
+      <div className='mt-3 text-light card bg-info text-center '>
+        <div className='da'>
+          <h3>All Movies</h3>
+        </div>
+      </div>
       <div
         style={{
           display: "flex",

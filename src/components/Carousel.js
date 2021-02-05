@@ -53,10 +53,7 @@ const ImageCarousel = ({ movies }) => {
             }}></div>
         </div>
         {/* <img className="carousel_image" src={`${IMAGE_BASE_URL}${item.backdrop_path}`} alt={item.title} /> */}
-        <CarouselCaption
-          captionText={item.overview}
-          captionHeader={item.title}
-        />
+        <CarouselCaption captionHeader={item.title} />
       </CarouselItem>
     );
   });

@@ -94,7 +94,7 @@ const NavBar = (props) => {
               </NavItem>
             </Nav>
             <Dropdown isOpen={dropdownOpen} toggle={dropToggle}>
-              <DropdownToggle caret>API</DropdownToggle>
+              <DropdownToggle caret>API's Used</DropdownToggle>
               <DropdownMenu>
                 <DropdownItem>
                   <a
@@ -103,6 +103,21 @@ const NavBar = (props) => {
                     rel='noopener noreferrer'>
                     Now Playing
                   </a>
+                  <br />
+                  <a
+                    href='https://developers.themoviedb.org/3/get-now-playing'
+                    target='_blank'
+                    rel='noopener noreferrer'>
+                    Tranding
+                  </a>
+                  <br />
+                  <a
+                    href='https://developers.themoviedb.org/3/get-now-playing'
+                    target='_blank'
+                    rel='noopener noreferrer'>
+                    Web Series
+                  </a>
+                  <br />
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>

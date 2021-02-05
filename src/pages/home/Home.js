@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { BASE_URL, API_KEY } from "../../config";
@@ -21,7 +21,7 @@ const Home = () => {
     const res = await axios.get(`${BASE_URL}/trending/movie/week`, {
       params: { api_key: API_KEY },
     });
-    setTrendings(res.data.results.splice(0, 6));
+    setTrendings(res.data.results.splice(0, 12));
   };
 
   const getPlayingNowMovies = async () => {
@@ -62,7 +62,6 @@ const Home = () => {
       <div className='mt-4 text-light card bg-info p-2'>
         <div className='da'>
           <h3>Trading Now</h3>
-          <h5 className='st'>View More</h5>
         </div>
       </div>
       <div className='row'>
@@ -77,8 +76,7 @@ const Home = () => {
 
       <div className='mt-2 text-light card bg-info p-2'>
         <div className='da'>
-          <h3>TV Series</h3>
-          <h5 className='st'>View More</h5>
+          <h3>Web Series</h3>
         </div>
       </div>
       <div className='row'>

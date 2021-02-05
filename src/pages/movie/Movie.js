@@ -34,6 +34,7 @@ const Movie = ({ data }) => {
             <img
               src={`${IMAGE_BASE_URL}/${movie.poster_path}`}
               style={{ height: "70vh" }}
+              alt='poster'
             />
           </div>
           <div width='60%'>

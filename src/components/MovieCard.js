@@ -1,13 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  Card,
-  CardImg,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Badge,
-} from "reactstrap";
+import { Card, CardImg, CardBody, CardTitle, Badge } from "reactstrap";
 import { IMAGE_BASE_URL } from "../config";
 
 const MovieCard = ({ movie }) => {
@@ -24,7 +17,7 @@ const MovieCard = ({ movie }) => {
             />
             <CardBody className='image-card-body'>
               <CardTitle tag='h5' className='mb-0 pb-0'>
-                {movie.title}
+                {movie.title || movie.name}
               </CardTitle>
             </CardBody>
             <div className='movie-class'>
