@@ -45,7 +45,7 @@ const Home = () => {
         <div className='sub-header'>
           <h3>Now Playing</h3>
           <Link to='/movies/1' className='sub-header-link'>
-            View more
+            View More
           </Link>
         </div>
       </div>
@@ -60,9 +60,7 @@ const Home = () => {
       </div>
 
       <div className='mt-4 text-light card bg-info p-2'>
-        <div className='da'>
-          <h3>Trading Now</h3>
-        </div>
+        <h3>Trading Now</h3>
       </div>
       <div className='row'>
         {trendings.map((movie, index) => {
@@ -75,7 +73,7 @@ const Home = () => {
       </div>
 
       <div className='mt-2 text-light card bg-info p-2'>
-        <div className='da'>
+        <div className='sub-header'>
           <h3>Web Series</h3>
         </div>
       </div>

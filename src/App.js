@@ -29,9 +29,9 @@ function App() {
               return <Movie data={data} />;
             }}
           />
-          <Footer />
         </Switch>
       </div>
+      <Footer />{" "}
     </BrowserRouter>
   );
 }

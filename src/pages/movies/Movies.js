@@ -24,11 +24,9 @@ const Movies = ({ data }) => {
   }, [currentPage, match.params.id]);
 
   return (
-    <div>
+    <div style={{ marginTop: "58px" }}>
       <div className='mt-3 text-light card bg-info text-center '>
-        <div className='da'>
-          <h3>All Movies</h3>
-        </div>
+        <h3>All Movies</h3>
       </div>
       <div
         style={{
@@ -48,6 +46,7 @@ const Movies = ({ data }) => {
           display: "flex",
           justifyContent: "center",
           alignContent: "center",
+          marginTop: "10px",
         }}>
         <Pagination aria-label='Page navigation example'>
           <PaginationItem>

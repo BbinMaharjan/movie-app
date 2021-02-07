@@ -42,7 +42,8 @@ const ImageCarousel = ({ movies }) => {
             background: `url(${IMAGE_BASE_URL}${item.backdrop_path})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            backgroundPosition: "center center",
+            backgroundPosition: "center",
+            marginTop: "55px",
           }}>
           <div
             style={{

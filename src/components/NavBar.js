@@ -46,14 +46,19 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar color='dark' dark expand='md'>
+      <Navbar
+        color='dark'
+        dark
+        expand='md'
+        fixed='top'
+        style={{ background: "transparent" }}>
         <div className='container-fluid'>
           <NavbarBrand href='/'>MyMovies</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className='mr-auto' navbar>
               <NavItem>
-                <NavLink>Movies</NavLink>
+                <NavLink href='/movies/1'>Movies</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink>
@@ -98,21 +103,21 @@ const NavBar = (props) => {
               <DropdownMenu>
                 <DropdownItem>
                   <a
-                    href='https://developers.themoviedb.org/3/get-now-playing'
+                    href='https://developers.themoviedb.org/3/movie/now_playing'
                     target='_blank'
                     rel='noopener noreferrer'>
                     Now Playing
                   </a>
                   <br />
                   <a
-                    href='https://developers.themoviedb.org/3/get-now-playing'
+                    href='https://developers.themoviedb.org/3/trending/movie/week'
                     target='_blank'
                     rel='noopener noreferrer'>
                     Tranding
                   </a>
                   <br />
                   <a
-                    href='https://developers.themoviedb.org/3/get-now-playing'
+                    href='https://developers.themoviedb.org/3/tv/popular'
                     target='_blank'
                     rel='noopener noreferrer'>
                     Web Series
