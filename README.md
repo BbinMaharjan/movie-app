@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### MyMovies Website
 
-<img src= "screenshots/flex_class.png" width="250px" height="250px">
+<img src= "screenshots/MyMovies-App.png" width="250px" height="250px">
 
 ## Available Scripts
 
