@@ -1,7 +1,9 @@
 # MyMovies Website
-###Netlify Link (https://mymoviebin.netlify.app/)
-
 <img src= "screenshots/MyMovies-App.png" width="1000px" height="1000px">
+
+### Netlify Link 
+
+https://mymoviebin.netlify.app/
 
 # Getting Started with Create React App
 
