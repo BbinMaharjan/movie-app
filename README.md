@@ -1,10 +1,12 @@
+# MyMovies Website
+###Netlify Link (https://mymoviebin.netlify.app/)
+
+<img src= "screenshots/MyMovies-App.png" width="1000px" height="1000px">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# MyMovies Website
-
-<img src= "screenshots/MyMovies-App.png" width="1000px" height="500px">
 
 ## Available Scripts
 
