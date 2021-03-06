@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### MyMovies Website
+# MyMovies Website
 
-<img src= "screenshots/MyMovies-App.png" width="250px" height="250px">
+<img src= "screenshots/MyMovies-App.png" width="500px" height="500px">
 
 ## Available Scripts
 
